@@ -1,10 +1,10 @@
 # Worldwide NER Dataset Improvements
 
 ## Overview
-This repository contains the dataset with improvements to the annotations in the English Worldwide Newswire dataset (https://github.com/stanfordnlp/en-worldwide-newswire), which was first introduced in `Do "English" Named Entity Recognizers Work Well on Global Englishes?` (Shan et. al., 2023) https://arxiv.org/abs/2404.13465. In `SLENDER: Structured Outputs for SLM-based NER in Low-Resource Englishes` (ACL 2025 Industry Track) by Ren and Teo (2025), we have refined the original dataset with more consistent entity labels in the SLENDER format to support research in low-resource Englishes.
+This repository contains the dataset with improvements to the annotations in the English Worldwide Newswire test set (https://github.com/stanfordnlp/en-worldwide-newswire), which was first introduced in `Do "English" Named Entity Recognizers Work Well on Global Englishes?` (Shan et. al., 2023) https://arxiv.org/abs/2404.13465. In `SLENDER: Structured Outputs for SLM-based NER in Low-Resource Englishes` (ACL 2025 Industry Track) by Ren and Teo (2025), we have refined the original dataset with more consistent entity labels in the SLENDER format to support research in low-resource Englishes.
 
 ## Key Improvements
-The improvements focus on ensuring consistent entity labelling across the dataset aligned with the English Worldwide Newswire dataset's label definitions (Shan et al., 2023). These include, and are not limited to:
+The improvements focus on ensuring consistent entity labelling across the test set aligned with the English Worldwide Newswire dataset's label definitions (Shan et al., 2023). These include, and are not limited to:
 - Standardisation of religious/deity references (e.g., "Allah" → O)
 - Correct classification of event/phenomenon mentions (e.g., "Covid-19" → MISCELLANEOUS) 
 - Proper handling of nicknames and references to persons (e.g., "Bibi" → PERSON)
