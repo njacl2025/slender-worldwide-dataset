@@ -1,7 +1,7 @@
 # Worldwide NER Dataset Improvements
 
 ## Overview
-This repository contains the dataset with improvements to the annotations in the English Worldwide Newswire dataset (https://github.com/stanfordnlp/en-worldwide-newswire), which was first introduced in the `Do "English" Named Entity Recognizers Work Well on Global Englishes?` (Shan et. al., 2023) https://arxiv.org/abs/2404.13465. In `SLENDER: Structured Outputs for SLM-based NER in Low-Resource Englishes` (ACL 2025 Industry Track), we have refined the original dataset with more consistent entity labels in the SLENDER format to support research in low-resource Englishes.
+This repository contains the dataset with improvements to the annotations in the English Worldwide Newswire dataset (https://github.com/stanfordnlp/en-worldwide-newswire), which was first introduced in `Do "English" Named Entity Recognizers Work Well on Global Englishes?` (Shan et. al., 2023) https://arxiv.org/abs/2404.13465. In `SLENDER: Structured Outputs for SLM-based NER in Low-Resource Englishes` (ACL 2025 Industry Track) by Ren and Teo (2025), we have refined the original dataset with more consistent entity labels in the SLENDER format to support research in low-resource Englishes.
 
 ## Key Improvements
 The improvements focus on ensuring consistent entity labelling across the dataset aligned with the English Worldwide Newswire dataset's label definitions (Shan et al., 2023). These include, and are not limited to:
@@ -24,14 +24,14 @@ The improvements focus on ensuring consistent entity labelling across the datase
 | On Friday morning, Syrian media said that Israel had hit Damascus, killing three military forces and injuring seven more. | Friday <br> MISCELLANEOUS | Friday <br> DATE | "Friday" refers to the day and thus labelled as DATE. |
 
 ## Dataset Format
-The dataset maintains the original format while providing corrected labels. Each entry contains:
+There are 5 datasets, 1 for each region. Each dataset contains the following columns:
 - Original text
 - Original class label
 - Improved class label
 - Indication if there is a change
 
-## Examples of Label Improvements
-If you use this improved dataset in your research, please cite both the original Worldwide dataset (Shan et. al., 2023) and our improvements:
+## Citation
+If you use this dataset, please cite both the original Worldwide dataset (Shan et. al., 2023) and our improvements:
 ```
 @inproceedings{Ren_Teo_2025,
    title={SLENDER: Structured Outputs for SLM-based NER in Low-Resource Englishes},
