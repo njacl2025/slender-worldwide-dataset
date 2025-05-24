@@ -24,11 +24,11 @@ The improvements focus on ensuring consistent entity labelling across the test s
 | On Friday morning, Syrian media said that Israel had hit Damascus, killing three military forces and injuring seven more. | Friday <br> MISCELLANEOUS | Friday <br> DATE | "Friday" refers to the day and thus labelled as DATE. |
 
 ## Dataset Format
-There are 5 datasets, 1 for each region. Each dataset contains the following columns:
-- Original text
-- Original class label
-- Improved class label
-- Indication if there is a change
+There are 5 datasets, 1 for each region of the Worldwide test set. Each dataset contains the following columns:
+- `text`: Original text
+- `old_entities`: Original class labels
+- `new_entities`: Improved class labels
+- `is_updated`: Indication if there is a change in labels
 
 ## Citation
 If you use this dataset, please cite both the original Worldwide dataset (Shan et. al., 2023) and our improvements:
