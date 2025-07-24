@@ -35,10 +35,8 @@ If you use this dataset, please cite both the original Worldwide dataset (Shan e
 ```
 @inproceedings{ren-teo-2025-slender,
     title = "{SLENDER}: Structured Outputs for {SLM}-based {NER} in Low-Resource Englishes",
-    author = "Ren, Nicole  and
-      Teo, James",
-    editor = "Rehm, Georg  and
-      Li, Yunyao",
+    author = "Ren, Nicole and Teo, James",
+    editor = "Rehm, Georg and Li, Yunyao",
     booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)",
     month = jul,
     year = "2025",
