@@ -33,12 +33,20 @@ There are 5 datasets, 1 for each region of the Worldwide test set. Each dataset 
 ## Citation
 If you use this dataset, please cite both the original Worldwide dataset (Shan et. al., 2023) and our improvements:
 ```
-@inproceedings{Ren_Teo_2025,
-   title={SLENDER: Structured Outputs for SLM-based NER in Low-Resource Englishes},
-   url={},
-   DOI={},
-   booktitle={},
-   publisher={Association for Computational Linguistics},
-   author={},
-   year={2025} }
-   ```
+@inproceedings{ren-teo-2025-slender,
+    title = "{SLENDER}: Structured Outputs for {SLM}-based {NER} in Low-Resource Englishes",
+    author = "Ren, Nicole  and
+      Teo, James",
+    editor = "Rehm, Georg  and
+      Li, Yunyao",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-industry.59/",
+    pages = "836--849",
+    ISBN = "979-8-89176-288-6",
+    abstract = "Named Entity Recognition (NER) for low-resource variants of English remains challenging, as most NER models are trained on datasets predominantly focused on American or British English. While recent work has shown that proprietary Large Language Models (LLMs) can perform NER effectively in low-resource settings through in-context learning, practical deployment is limited by their high computational costs and privacy concerns. Open-source Small Language Models (SLMs) offer promising alternatives, but the tendency of these Language Models (LM) to hallucinate poses challenges for production use. To address this, we introduce SLENDER, a novel output format for LM-based NER that achieves a three-fold reduction in inference time on average compared to JSON format, which is widely used for structured outputs. Our approach using Gemma-2-9B-it with the SLENDER output format and constrained decoding in zero-shot settings outperforms the en{\_}core{\_}web{\_}trf model from SpaCy, an industry-standard NER tool, in all five regions of the Worldwide test set."
+}
+```
